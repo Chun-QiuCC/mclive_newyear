@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="mclive_newyear"
+version="1.0.0"
+displayName="MCLIVE的新年"
+displayURL="https://mcs.mclive.org"
+logoFile="logo.png"
+credits="模组由Mcreator制作，部分贴图/模型来源于中式工坊，其余贴图、模型均为自制"
+authors="Chun_Qiu"
+description="MCLIVE的新年！祝你新年快乐！模组由Mcreator制作，部分贴图/模型来源于中式工坊，其余贴图、模型均为自制"
+
+[[dependencies.mclive_newyear]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "xia_lian_a",
+        "missing": "xia_lian_a"
+      },
+      "name": "default"
+    }
+  }
+}

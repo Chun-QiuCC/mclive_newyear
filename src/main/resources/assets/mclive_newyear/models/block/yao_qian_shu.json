@@ -1,0 +1,9 @@
+{
+  "parent": "mclive_newyear:custom/yao_qian_shu_",
+  "textures": {
+    "all": "mclive_newyear:block/yao_qian_shu_tie_tu_",
+    "particle": "mclive_newyear:block/yao_qian_shu_tie_tu_",
+    "0": "mclive_newyear:block/yao_qian_shu_tie_tu_"
+  },
+  "render_type": "cutout"
+}

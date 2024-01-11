@@ -1,0 +1,10 @@
+{
+  "parent": "mclive_newyear:custom/xia_lian_a",
+  "textures": {
+    "all": "mclive_newyear:block/xia_lian_a",
+    "particle": "mclive_newyear:block/xia_lian_a",
+    "0": "mclive_newyear:block/xia_lian_a",
+    "missing": "mclive_newyear:block/xia_lian_a"
+  },
+  "render_type": "solid"
+}

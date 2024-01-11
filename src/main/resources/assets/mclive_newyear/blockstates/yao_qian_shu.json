@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mclive_newyear:block/yao_qian_shu"
+    },
+    "facing=east": {
+      "model": "mclive_newyear:block/yao_qian_shu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mclive_newyear:block/yao_qian_shu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mclive_newyear:block/yao_qian_shu",
+      "y": 270
+    }
+  }
+}

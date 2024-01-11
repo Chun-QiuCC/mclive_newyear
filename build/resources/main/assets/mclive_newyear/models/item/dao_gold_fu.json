@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mclive_newyear:item/jin_se_fu_zi_-d"
+  },
+  "render_type": "translucent"
+}

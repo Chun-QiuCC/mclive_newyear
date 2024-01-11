@@ -1,0 +1,7 @@
+{
+  "parent": "mclive_newyear:custom/bian_pao_",
+  "textures": {
+    "0": "mclive_newyear:block/bian_pao_",
+    "particle": "mclive_newyear:item/bian_pao_item"
+  }
+}

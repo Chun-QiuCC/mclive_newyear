@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mclive_newyear:gold_fu"
+    }
+  ],
+  "result": {
+    "item": "mclive_newyear:dao_gold_fu",
+    "count": 1
+  }
+}

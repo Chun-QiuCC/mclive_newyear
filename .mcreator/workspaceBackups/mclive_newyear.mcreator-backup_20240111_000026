@@ -1,0 +1,479 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedPack",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/models/item/red_pack.json",
+          "src/main/java/org/mclive/newyear/item/RedPackItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeRedPack",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_red_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_red_pack.json"
+        ]
+      }
+    },
+    {
+      "name": "UseRedPack",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_red_pack",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/procedures/UseRedPackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonFace",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_face",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlackFu",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/models/block/black_fu.json",
+          "src/main/resources/assets/mclive_newyear/blockstates/black_fu.json",
+          "src/main/resources/assets/mclive_newyear/models/item/black_fu.json",
+          "src/main/java/org/mclive/newyear/block/BlackFuBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeGoldFu",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_gold_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_gold_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBlackFu",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_black_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_black_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneTowerLamp",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_tower_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/block/StoneTowerLampBlock.java",
+          "src/main/resources/assets/mclive_newyear/blockstates/stone_tower_lamp.json",
+          "src/main/resources/assets/mclive_newyear/models/block/stone_tower_lamp.json",
+          "src/main/resources/assets/mclive_newyear/models/item/stone_tower_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldFu",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/models/block/gold_fu.json",
+          "src/main/java/org/mclive/newyear/block/GoldFuBlock.java",
+          "src/main/resources/assets/mclive_newyear/blockstates/gold_fu.json",
+          "src/main/resources/assets/mclive_newyear/models/item/gold_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "Lantern",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lantern",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/blockstates/lantern.json",
+          "src/main/java/org/mclive/newyear/block/LanternBlock.java",
+          "src/main/resources/assets/mclive_newyear/models/block/lantern.json",
+          "src/main/resources/assets/mclive_newyear/models/item/lantern.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeTowerLamp",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_tower_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_tower_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeLantern",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_lantern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_lantern.json"
+        ]
+      }
+    },
+    {
+      "name": "MCLIVEYear",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mclive_year",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "YaoQianShu",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yao_qian_shu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/models/item/yao_qian_shu.json",
+          "src/main/resources/assets/mclive_newyear/models/block/yao_qian_shu.json",
+          "src/main/resources/assets/mclive_newyear/blockstates/yao_qian_shu.json",
+          "src/main/java/org/mclive/newyear/block/YaoQianShuBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeYaoQianShu",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_yao_qian_shu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_yao_qian_shu.json"
+        ]
+      }
+    },
+    {
+      "name": "BianPao",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bian_pao",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/item/BianPaoItem.java",
+          "src/main/resources/assets/mclive_newyear/models/item/bian_pao.json"
+        ]
+      }
+    },
+    {
+      "name": "UseBianPao",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_bian_pao",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/procedures/UseBianPaoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DropBianPao",
+      "type": "projectile",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_bian_pao",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/entity/DropBianPaoEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DropBianPao_Do",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_bian_pao_do",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/procedures/DropBianPao_DoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DaoBlackFu",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dao_black_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/models/block/dao_black_fu.json",
+          "src/main/resources/assets/mclive_newyear/models/item/dao_black_fu.json",
+          "src/main/java/org/mclive/newyear/block/DaoBlackFuBlock.java",
+          "src/main/resources/assets/mclive_newyear/blockstates/dao_black_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "DaoGoldFU",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dao_gold_fu",
+      "metadata": {
+        "files": [
+          "src/main/java/org/mclive/newyear/block/DaoGoldFUBlock.java",
+          "src/main/resources/assets/mclive_newyear/models/block/dao_gold_fu.json",
+          "src/main/resources/assets/mclive_newyear/models/item/dao_gold_fu.json",
+          "src/main/resources/assets/mclive_newyear/blockstates/dao_gold_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeBianPao",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_bian_pao",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_bian_pao.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeDaoBlackFu",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_dao_black_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_dao_black_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeDaoGoldFu",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_dao_gold_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/make_dao_gold_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "TurnBlackFu",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_black_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/turn_black_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "TurnGoldFu",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_gold_fu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mclive_newyear/recipes/turn_gold_fu.json"
+        ]
+      }
+    },
+    {
+      "name": "ShangLianA",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shang_lian_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mclive_newyear/blockstates/shang_lian_a.json",
+          "src/main/resources/assets/mclive_newyear/models/block/shang_lian_a.json",
+          "src/main/java/org/mclive/newyear/block/ShangLianABlock.java",
+          "src/main/resources/assets/mclive_newyear/models/item/shang_lian_a.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.mclive_newyear.mclive_year": "年！",
+      "item.mclive_newyear.red_pack": "§eRed Pack",
+      "block.mclive_newyear.gold_fu": "Gold Fu",
+      "block.mclive_newyear.dao_gold_fu": "Gold Fu (inversion)",
+      "painting.mclive_newyear.dragon_face.title": "Dragon Face",
+      "block.mclive_newyear.yao_qian_shu": "Yao Qian Shu",
+      "block.mclive_newyear.black_fu": "Gold Fu",
+      "item.mclive_newyear.bian_pao": "Bian Pao",
+      "block.mclive_newyear.shang_lian_a": "上联A",
+      "block.mclive_newyear.stone_tower_lamp": "Stone Tower Lamp",
+      "painting.mclive_newyear.dragon_face.author": "LongYuTao",
+      "block.mclive_newyear.lantern": "Lantern",
+      "block.mclive_newyear.dao_black_fu": "Gold Fu (inversion)"
+    },
+    "zh_cn": {
+      "item_group.mclive_newyear.mclive_year": "年！",
+      "item.mclive_newyear.red_pack": "红包",
+      "block.mclive_newyear.gold_fu": "福字(金色)",
+      "block.mclive_newyear.dao_gold_fu": "福字(金色倒置)",
+      "painting.mclive_newyear.dragon_face.title": "龙图",
+      "block.mclive_newyear.yao_qian_shu": "摇钱树",
+      "block.mclive_newyear.black_fu": "福字(黑色)",
+      "item.mclive_newyear.bian_pao": "鞭炮",
+      "block.mclive_newyear.shang_lian_a": "上联A",
+      "block.mclive_newyear.stone_tower_lamp": "石塔灯",
+      "painting.mclive_newyear.dragon_face.author": "龙女士",
+      "block.mclive_newyear.lantern": "灯笼",
+      "block.mclive_newyear.dao_black_fu": "福字(黑色倒置)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mclive_newyear",
+    "modName": "MCLIVE的新年",
+    "version": "1.0.0",
+    "author": "CQ, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "org.mclive.newyear",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

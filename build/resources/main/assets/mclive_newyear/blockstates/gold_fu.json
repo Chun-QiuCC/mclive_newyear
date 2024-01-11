@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mclive_newyear:block/gold_fu"
+    },
+    "facing=east": {
+      "model": "mclive_newyear:block/gold_fu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mclive_newyear:block/gold_fu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mclive_newyear:block/gold_fu",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mclive_newyear:block/gold_fu",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mclive_newyear:block/gold_fu",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "mclive_newyear:custom/jin_fu_",
+  "textures": {
+    "all": "mclive_newyear:block/jin_se_fu_zi_",
+    "particle": "mclive_newyear:block/jin_se_fu_zi_",
+    "0": "mclive_newyear:block/jin_se_fu_zi_",
+    "missing": "mclive_newyear:block/jin_se_fu_zi_"
+  },
+  "render_type": "cutout_mipped"
+}

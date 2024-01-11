@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bian_pao_"
+      },
+      "name": "default"
+    }
+  }
+}

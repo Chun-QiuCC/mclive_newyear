@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "black_tile": "black_tile",
+        "particle": "stone_tower_lamp",
+        "main": "chinese_oak_door_lower"
+      },
+      "name": "default"
+    }
+  }
+}

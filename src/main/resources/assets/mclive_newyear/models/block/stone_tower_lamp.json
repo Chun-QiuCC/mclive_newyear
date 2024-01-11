@@ -1,0 +1,10 @@
+{
+  "parent": "mclive_newyear:custom/stone_tower_lamp",
+  "textures": {
+    "all": "mclive_newyear:block/stone_tower_lamp",
+    "particle": "mclive_newyear:block/stone_tower_lamp",
+    "black_tile": "mclive_newyear:block/black_tile",
+    "main": "mclive_newyear:block/chinese_oak_door_lower"
+  },
+  "render_type": "solid"
+}

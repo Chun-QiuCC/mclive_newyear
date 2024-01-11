@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mclive_newyear:item/hong_bao_"
+  }
+}

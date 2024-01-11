@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jin_se_fu_zi_",
+        "missing": "jin_se_fu_zi_"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "mclive_newyear:red_pack"
+    },
+    "b": {
+      "tag": "minecraft:saplings"
+    },
+    "c": {
+      "item": "minecraft:brick"
+    },
+    "d": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "mclive_newyear:yao_qian_shu",
+    "count": 1
+  }
+}

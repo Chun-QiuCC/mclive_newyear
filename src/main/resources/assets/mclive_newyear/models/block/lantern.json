@@ -1,0 +1,9 @@
+{
+  "parent": "mclive_newyear:custom/deng_long_",
+  "textures": {
+    "all": "mclive_newyear:block/deng_long__texture",
+    "particle": "mclive_newyear:block/deng_long__texture",
+    "0": "mclive_newyear:block/deng_long__texture"
+  },
+  "render_type": "cutout"
+}

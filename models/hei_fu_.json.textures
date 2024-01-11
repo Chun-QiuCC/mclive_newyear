@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hei_se_fu_zi_",
+        "missing": "hei_se_fu_zi_"
+      },
+      "name": "default"
+    }
+  }
+}
